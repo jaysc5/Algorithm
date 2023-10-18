@@ -10,3 +10,5 @@ class Solution:
                     dic[num] = i
             else:
                 dic[num] = i
+        
+        return False
