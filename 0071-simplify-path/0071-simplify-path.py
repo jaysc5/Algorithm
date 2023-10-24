@@ -2,7 +2,6 @@ class Solution:
     def simplifyPath(self, path: str) -> str:
         stack = []
 
-        print(path.split('/'))
         for dir_name in path.split('/'):
             if dir_name == '..':
                 if stack:
